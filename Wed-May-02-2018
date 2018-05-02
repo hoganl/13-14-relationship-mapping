@@ -1,0 +1,168 @@
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a PUT on /api/continents/5aea2760be6cc45f749620b6"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a GET on /api/continents/5aea2760be6cc45f749620b9"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 200 status code"}
+{"level":"info","message":"CONTINENT ROUTER: {\"penguin\":[],\"timestamp\":\"2018-05-02T21:02:24.848Z\",\"_id\":\"5aea2760be6cc45f749620b9\",\"location\":\"repellat\",\"description\":\"assumenda quia in magni dolorem minima qui ut aut repellat et atque et cum voluptatum\",\"__v\":0}"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/continents/5aea2760be6cc45f749620ba"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/continents/InvalidId"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a PUT on /api/continents/5aea3e09e0a9ff30e0c5d7c2"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a GET on /api/continents/5aea3e09e0a9ff30e0c5d7c5"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 200 status code"}
+{"level":"info","message":"CONTINENT ROUTER: {\"penguin\":[],\"timestamp\":\"2018-05-02T22:39:05.432Z\",\"_id\":\"5aea3e09e0a9ff30e0c5d7c5\",\"location\":\"fugit\",\"description\":\"error ab omnis dolor laboriosam quasi quia omnis et velit enim porro ratione consequatur deleniti\",\"__v\":0}"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/continents/5aea3e09e0a9ff30e0c5d7c6"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/continents/InvalidId"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a PUT on /api/continents/5aea3ed3aae4b624902760a6"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a GET on /api/continents/5aea3ed3aae4b624902760a9"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 200 status code"}
+{"level":"info","message":"CONTINENT ROUTER: {\"penguin\":[],\"timestamp\":\"2018-05-02T22:42:27.616Z\",\"_id\":\"5aea3ed3aae4b624902760a9\",\"location\":\"repellat\",\"description\":\"occaecati sed consequatur sunt reiciendis cumque illum praesentium aut quae dolorem fugiat aut id debitis\",\"__v\":0}"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/continents/5aea3ed3aae4b624902760aa"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/continents/InvalidId"}
+{"level":"info","message":"Server is listening on port 7000"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a PUT on /api/continents/5aea4019941d8d2edc6974d3"}
+{"level":"info","message":"PUT - responding with a 200 status code"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a POST on /api/continents"}
+{"level":"error","message":"CONTINENT-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Continent location is required"}
+{"level":"info","message":"Processing a GET on /api/continents/5aea4019941d8d2edc6974d6"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 200 status code"}
+{"level":"info","message":"CONTINENT ROUTER: {\"penguin\":[],\"timestamp\":\"2018-05-02T22:47:53.222Z\",\"_id\":\"5aea4019941d8d2edc6974d6\",\"location\":\"maiores\",\"description\":\"voluptatibus qui inventore corporis enim id aliquid occaecati molestiae fugit itaque ea beatae consequatur tenetur\",\"__v\":0}"}
+{"level":"info","message":"Processing a GET on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Processing a DELETE on /api/continents/5aea4019941d8d2edc6974d7"}
+{"level":"info","message":"CONTINENT ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/continents/InvalidId"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 404"}
+{"level":"info","message":"Server is off"}
