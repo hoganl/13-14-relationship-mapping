@@ -25,10 +25,6 @@ continentRouter.put('/api/continents/:id', jsonParser, (request, response, next)
   
   return Continent.findByIdAndUpdate(request.params.id, request.body, options)
     .then((updatedContinent) => {
-      if (!updatedContinent) {
-        logger.log(logger.ERROR, 'CONTINENT ROUTER: responding with 404 status code - !continent');
-        return next(new HttpErrors(404, 'continent not found'));
-      }
       logger.log(logger.INFO, 'PUT - responding with a 200 status code');
       return response.json(updatedContinent);
     })
@@ -38,10 +34,6 @@ continentRouter.put('/api/continents/:id', jsonParser, (request, response, next)
 continentRouter.get('/api/continents/:id', (request, response, next) => {
   return Continent.findById(request.params.id)
     .then((continent) => {
-      if (!continent) {
-        logger.log(logger.ERROR, 'CONTINENT ROUTER: responding with 404 status code - !continent');
-        return next(new HttpErrors(404, 'continent not found'));
-      }
       logger.log(logger.INFO, 'CONTINENT ROUTER: responding with 200 status code');
       logger.log(logger.INFO, `CONTINENT ROUTER: ${JSON.stringify(continent)}`);
       return response.json(continent);

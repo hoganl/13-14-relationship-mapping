@@ -36,7 +36,7 @@ describe('/api/continents', () => {
         });
     });
 
-    test('409 due to duplicate title', () => {
+    test('409 due to duplicate location', () => {
       return createContinentMock()
         .then((continent) => {
           const mockContinent = {
@@ -52,7 +52,7 @@ describe('/api/continents', () => {
         });
     });
 
-    test('400 due to lack of title', () => {
+    test('400 due to lack of location', () => {
       return superagent.post(apiURL)
         .send({})
         .then(Promise.reject)
@@ -71,7 +71,7 @@ describe('/api/continents', () => {
     });
   });
   
-  describe('PUT /api/notes', () => {
+  describe('PUT /api/continents', () => {
     test('200 for successful PUT', () => {
       let continentToUpdate = null;
       return createContinentMock()
@@ -88,34 +88,31 @@ describe('/api/continents', () => {
         });
     });
 
-    test('409 due to duplicate title', () => {
+    test('409 due to duplicate location', () => {
       return createContinentMock()
         .then((continent) => {
-          const mockContinent = {
-            location: continent.location,
-            description: continent.description,
-          };
-          return superagent.post(apiURL)
-            .send(mockContinent);
+          return superagent.put(`${apiURL}/${continent._id}`)
+            .send({ location: continent.location });
         })
-        .then(Promise.reject)
         .catch((err) => {
           expect(err.status).toEqual(409);
         });
     });
 
     test('404 due to no continent found', () => {
-      return superagent.get(`${apiURL}/InvalidId`)
+      return superagent.put(`${apiURL}/InvalidId`)
         .then(Promise.reject)
         .catch((response) => {
           expect(response.status).toEqual(404);
         });
     });
 
-    test('400 due to bad json', () => {
-      return superagent.post(apiURL)
-        .send('{')
-        .then(Promise.reject)
+    test('400 due to lack of location', () => {      
+      return createContinentMock()
+        .then((continent) => {
+          return superagent.put(`${apiURL}/${continent._id}`)
+            .send({ location: '' });
+        })
         .catch((err) => {
           expect(err.status).toEqual(400);
         });
@@ -138,7 +135,15 @@ describe('/api/continents', () => {
         });
     });
 
-    test('should respond with 404 if there is no continent to be found', () => {
+    test('404 due to no id being passed', () => {
+      return superagent.get(`${apiURL}`)
+        .then(Promise.reject)
+        .catch((response) => {
+          expect(response.status).toEqual(404);
+        });
+    });
+
+    test('404 due to no continent found', () => {
       return superagent.get(`${apiURL}/InvalidId`)
         .then(Promise.reject)
         .catch((response) => {
@@ -157,7 +162,7 @@ describe('/api/continents', () => {
           expect(response.status).toEqual(204);
         });
     });
-    test('should respond with 404 if there is no continent to be found', () => {
+    test('404 due to no continent found', () => {
       return superagent.delete(`${apiURL}/InvalidId`)
         .then(Promise.reject)
         .catch((response) => {
