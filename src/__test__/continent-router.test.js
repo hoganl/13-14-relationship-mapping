@@ -2,22 +2,15 @@
 
 import faker from 'faker';
 import superagent from 'superagent';
-import Continent from '../model/continent';
 import { startServer, stopServer } from '../lib/server';
+import { createContinentMock, removeContinentMock } from './lib/continent-mock';
 
 const apiURL = `http://localhost:${process.env.PORT}/api/continents`;
-
-const createContinentMock = () => {
-  return new Continent({
-    location: faker.lorem.word(2),
-    description: faker.lorem.words(15),
-  }).save();
-};
 
 describe('/api/continents', () => {
   beforeAll(startServer);
   afterAll(stopServer);
-  afterEach(() => Continent.remove({}));
+  afterEach(removeContinentMock);
 
   describe('POST api/continents', () => {
     test('200', () => {

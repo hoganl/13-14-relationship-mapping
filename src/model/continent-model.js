@@ -16,11 +16,13 @@ const continentSchema = mongoose.Schema({
     type: Date,
     default: () => new Date(),
   },
-  penguin: [
+  penguins: [
     {
       type: mongoose.Schema.Types.ObjectId, ref: 'penguin',
     },
   ],
+}, { 
+  usePushEach: true,
 });
 
 export default mongoose.model('continent', continentSchema);
