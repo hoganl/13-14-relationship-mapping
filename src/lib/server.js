@@ -4,6 +4,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import logger from './logger';
 import continentRoutes from '../route/continent-router';
+import penguinRoutes from '../route/penguin-router';
 import loggerMiddleware from './logger-middleware';
 import errorMiddleware from './error-middleware';
 
@@ -12,6 +13,7 @@ let server = null;
 
 app.use(loggerMiddleware);
 app.use(continentRoutes);
+app.use(penguinRoutes);
 
 app.all('*', (request, response) => {
   logger.log(logger.INFO, 'Returning a 404 from the catch-all/default route');

@@ -3,11 +3,10 @@
 import { Router } from 'express';
 import bodyParser from 'body-parser';
 import HttpErrors from 'http-errors';
-import Continent from '../model/continent';
+import Continent from '../model/continent-model';
 import logger from '../lib/logger';
 
 const jsonParser = bodyParser.json();
-
 const continentRouter = new Router();
 
 continentRouter.post('/api/continents', jsonParser, (request, response, next) => {
@@ -25,7 +24,7 @@ continentRouter.put('/api/continents/:id', jsonParser, (request, response, next)
   
   return Continent.findByIdAndUpdate(request.params.id, request.body, options)
     .then((updatedContinent) => {
-      logger.log(logger.INFO, 'PUT - responding with a 200 status code');
+      logger.log(logger.INFO, 'CONTINENT-ROUTER: responding with a 200 status code');
       return response.json(updatedContinent);
     })
     .catch(next);
